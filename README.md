@@ -1,3 +1,7 @@
+## Check it out here!
+
+http://34.195.13.221:3000/search
+
 # Commands
 
 ## First, on the server folder:
@@ -43,3 +47,4 @@ Deploys a dockerized version of the app.
 ### GET/POST `http://localhost:8000/products`
 
 ### GET/PUT/DELETE `http://localhost:8000/product/:id`
+

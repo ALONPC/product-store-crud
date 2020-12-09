@@ -60,7 +60,7 @@ export const SearchResults = () => {
         size="large"
       />
       <Divider></Divider>
-      {searchValue && results && <h3>Se han encontrado {results.length} resultado(s)</h3>}
+      {searchValue && !!results.length && <h3>Se han encontrado {results.length} resultado(s)</h3>}
       {!results.length && <Empty description={false}></Empty>}
       <Row gutter={[24, 24]} style={{ marginTop: 24 }}>
         {!!results.length &&
